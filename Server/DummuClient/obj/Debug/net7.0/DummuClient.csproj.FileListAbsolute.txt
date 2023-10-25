@@ -1,0 +1,14 @@
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\bin\Debug\net7.0\DummuClient.exe
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\bin\Debug\net7.0\DummuClient.deps.json
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\bin\Debug\net7.0\DummuClient.runtimeconfig.json
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\bin\Debug\net7.0\DummuClient.dll
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\bin\Debug\net7.0\DummuClient.pdb
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\obj\Debug\net7.0\DummuClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\obj\Debug\net7.0\DummuClient.AssemblyInfoInputs.cache
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\obj\Debug\net7.0\DummuClient.AssemblyInfo.cs
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\obj\Debug\net7.0\DummuClient.csproj.CoreCompileInputs.cache
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\obj\Debug\net7.0\DummuClient.dll
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\obj\Debug\net7.0\refint\DummuClient.dll
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\obj\Debug\net7.0\DummuClient.pdb
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\obj\Debug\net7.0\DummuClient.genruntimeconfig.cache
+C:\Users\micro\UnityGitHub\-Server-\Server\DummuClient\obj\Debug\net7.0\ref\DummuClient.dll
