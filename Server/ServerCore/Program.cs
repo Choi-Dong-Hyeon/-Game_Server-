@@ -1,6 +1,6 @@
 ﻿namespace ServerCore
 {
-    //메모리배리어 /가시성/ 
+    //메모리배리어 /가시성/ 데드락
 
 
     internal class Program
@@ -12,9 +12,10 @@
 
         static void Thread_1()
         {
+            
             y = 1; // Store y
 
-           Thread.MemoryBarrier();
+            Thread.MemoryBarrier();
 
             r1 = x; // Load x
         }
