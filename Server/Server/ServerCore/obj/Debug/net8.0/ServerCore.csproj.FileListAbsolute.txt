@@ -1,0 +1,15 @@
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\bin\Debug\net8.0\ServerCore.exe
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\bin\Debug\net8.0\ServerCore.deps.json
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\bin\Debug\net8.0\ServerCore.runtimeconfig.json
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\bin\Debug\net8.0\ServerCore.dll
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\bin\Debug\net8.0\ServerCore.pdb
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\obj\Debug\net8.0\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\obj\Debug\net8.0\ServerCore.AssemblyInfoInputs.cache
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\obj\Debug\net8.0\ServerCore.AssemblyInfo.cs
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\obj\Debug\net8.0\ServerCore.csproj.CoreCompileInputs.cache
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\obj\Debug\net8.0\ServerCore.sourcelink.json
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\obj\Debug\net8.0\ServerCore.dll
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\obj\Debug\net8.0\refint\ServerCore.dll
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\obj\Debug\net8.0\ServerCore.pdb
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\obj\Debug\net8.0\ServerCore.genruntimeconfig.cache
+C:\Users\micro\GitHub\-Game_Server-\Server\Server\ServerCore\obj\Debug\net8.0\ref\ServerCore.dll
