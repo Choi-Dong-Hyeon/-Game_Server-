@@ -6,7 +6,6 @@ namespace DummyClient
 {
     class Program
     {
-     
         static void Main(string[] args)
         {
             string hostName = Dns.GetHostName();
@@ -15,37 +14,46 @@ namespace DummyClient
 
             IPAddress hostIpAdress = hostIp.AddressList[0];
 
-            IPEndPoint endPoint = new IPEndPoint(hostIpAdress, 7777);
+            IPEndPoint endPoint = new IPEndPoint(hostIpAdress, 10000);
 
-
-            try
+            while (true)
             {
+
                 Socket socket = new Socket(endPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
 
-                socket.Connect(endPoint);
-                Console.WriteLine($"입장되었슴다");
+                try
+                {
 
-                byte[] sendBuff = new byte[1024];
+                    socket.Connect(endPoint);
+                    Console.WriteLine($"입장되었슴다");
 
-                sendBuff = Encoding.UTF8.GetBytes("안녕");
+                    for (int i = 0; i < 5; i++)
+                    {
 
-                socket.Send(sendBuff);
+                        byte[] sendBuff = new byte[1024];
+                        sendBuff = Encoding.UTF8.GetBytes($"안녕 {i}");
+                        socket.Send(sendBuff);
 
-                byte[] receiveBuff = new byte[1024];
+                    }
 
-                string receiveData = Encoding.UTF8.GetString(receiveBuff, 0, receiveBuff.Length);
 
-                socket.Receive(receiveBuff);
+                    byte[] receiveBuff = new byte[1024];
 
-                Console.WriteLine(receiveData);
+                    string receiveData = Encoding.UTF8.GetString(receiveBuff, 0, receiveBuff.Length);
 
-                socket.Close();
+                    socket.Receive(receiveBuff);
+
+                    Console.WriteLine(receiveData);
+
+                    socket.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+
+                Thread.Sleep(1000);
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
-
 
         }
     }
